@@ -8,10 +8,20 @@ var lang;
 function getWelcome() {
     lang = getLanguage();
     if (!lang || !phrases[lang]) {
-        lang = 'nl';
+        lang = 'en';
     }
     document.getElementById('welcome').innerHTML = phrases[lang];
     
+}
+
+function getAboutMe()
+{
+    lang = getLanguage();
+    if(!lang || !phrases[lang])
+    {
+        lang = 'en';
+    }
+    document.getElementById('aboutme').innerHTML = aboutMePhrases[lang];
 }
 
  function getLanguage() {
@@ -32,6 +42,14 @@ function getWelcome() {
 var phrases = { /* translation table for page */
     en: ["<h1>Welcome!</h1>\n\
 <p>To my site</p>\n\
+<p>\n\
+</p>"]
+};
+
+var aboutMePhrases = 
+{
+    en: ["<h1>About Me :D</h1>\n\n\
+<p>Let me tell you a little about myself:</p>\n\n\
 <p>\n\
 </p>"]
 };
