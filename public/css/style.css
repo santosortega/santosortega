@@ -1,7 +1,7 @@
 /* 
     Document   : style
-    Created on : Aug 19, 2012, 12:32:23 PM
-    Author     : jb
+    Created on : Jan 9, 2014, 12:32:23 PM
+    Author     : so
     Description:
         Purpose of the stylesheet follows.
 */
@@ -115,6 +115,28 @@ form.signin .tweetbox input {
 
 form.signin input:-moz-placeholder { color:#bbb; text-shadow:0 0 2px #000; }
 form.signin input::-webkit-input-placeholder { color:#bbb; text-shadow:0 0 2px #000;  }
+
+.footer {
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-color: #323232;
+    background-image: none;
+    background-origin: padding-box;
+    background-position: 0 0;
+    background-repeat: repeat;
+    background-size: auto auto;
+    color: #E4E4E4;
+    font-size: 1em;
+    padding-bottom: 1.618em;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 1.618em;
+    margin: 0px;
+    margin-top: 0px;
+    margin-right: -20px;
+    margin-bottom: 0px;
+    margin-left: -20px;
+}
 
 .button { 
     background: -moz-linear-gradient(center top, #f3f3f3, #dddddd);
