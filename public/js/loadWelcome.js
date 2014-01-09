@@ -24,6 +24,16 @@ function getAboutMe()
     document.getElementById('aboutme').innerHTML = aboutMePhrases[lang];
 }
 
+function getContact()
+{
+    lang = getLanguage();
+    if(!lang || !phrases[lang])
+    {
+        lang = 'en';
+    }
+    document.getElementById('contact').innerHTML = contactPhrases[lang];
+}
+
  function getLanguage() {
 
          if (navigator.language) {
@@ -52,4 +62,13 @@ var aboutMePhrases =
 <p>Let me tell you a little about myself:</p>\n\n\
 <p>\n\
 </p>"]
+};
+
+var contactPhrases = 
+{
+    en: ["<h2>Contact Information</h2>\n\n\
+<p>Santos Ortega</p>\
+<p>Camarillo, CA 93011</p>\
+<p>(e) seortega13@gmail.com</p>\n\n\
+<p>(c) 415.683.9579</p>"]
 };
