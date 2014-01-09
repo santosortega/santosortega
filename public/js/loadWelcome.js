@@ -48,7 +48,7 @@ var phrases = { /* translation table for page */
 
 var aboutMePhrases = 
 {
-    en: ["<h1>About Me :D</h1>\n\n\
+    en: ["<h1>About Me</h1>\n\n\
 <p>Let me tell you a little about myself:</p>\n\n\
 <p>\n\
 </p>"]
